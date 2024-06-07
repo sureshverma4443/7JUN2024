@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    nav{
+        display: flex;
+        flex-direction:row;
+        /* border: 1px solid black; */
+        background-color: cornflowerblue;
+       width: 100%;
+       height: 80px;
+       justify-content: space-around;
+        align-items: center;
+       
+        
+    }
+    .navlogo{
+        /* border: 1px solid black;  */
+
+    }
+   .navlogo img{
+    width: 100%;
+    height: 80px;
+   
+  
+    
+   }
+   .navlink{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    gap: 15%;
+    font-size: larger;
+   
+    /* border: 1px solid black; */
+   }
+   .navlink a{
+    color: white ;
+    text-decoration: none;
+   }
+  
+   .navsearch input{
+    height: 25px;
+   }
+   .navsearch button{
+    height: 30px;
+   }
+   .navsearch button:hover{
+    color: white;
+    background-color: black;
+   }
+   .herosection img{
+    width: 100%;
+    height: 800px;
+   }
+   .Details{
+    display: flex;
+    flex-direction: row;
+    background-color: aliceblue;
+    height: 400px;
+    padding: 5%;
+    gap: 5%;
+
+   }
+   .Registration{
+    width: 50%;
+    border: 1px solid black;
+    padding: 2%;
+   }
+   .Tablecontainer{
+    width: 50%;
+    border: 1px solid black;
+   }
+   form h1{
+    text-align: center;
+   }
+   form{
+    height: 350px;
+    width: 50%;
+    border: 1px solid black;
+    margin:auto;
+    
+   }
+   .lableinput{
+    margin-left: 20%;
+   }
+   
+   label{
+    font-size: x-large;
+   }
+   input{
+    font-size: large;
+   }
+   .button{
+    margin:5% auto;
+    text-align: center;
+    width: 30%;
+   }
+   button{
+    width: 80%;
+    height: 30px;
+   }
+   button:hover{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+   }
+  
+  
+
+
+  
+</style>
+<body>
+    <nav>
+        <div class="navlogo">
+           <img src="https://1000logos.net/wp-content/uploads/2018/02/BMW-Logo-1997.png">
+        </div>
+        <div class="navlink">
+            <a href="">Home</a>
+            <a href="">Gallery</a>
+            <a href="">Directry</a>
+            <a href="">About</a>
+            <a href="">Contact</a>
+        </div>
+        <div class="navsearch">
+            <input placeholder="Search">
+            <button>Submit</button>
+        </div>
+
+    </nav>
+    <div class="herosection">
+   <img src="https://images.pexels.com/photos/733856/pexels-photo-733856.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+    </div>
+    <div class="Details">
+        <div class="Registration">
+            <form>
+                <h1>Registration Form</h1>
+                <div class="lableinput" >
+               
+                    <label > Name</label><br>
+
+                    <input id="Name" type="text" name="name" placeholder="Enter is your Name"><br><br>
+                    <label >Email</label><br>
+                    <input id="Email" type="email" name="email" placeholder="Enter is your Email"><br><br>
+                      
+                </div>
+                
+                <div class="button">
+                    <button id="btn">Submit</button>
+                </div>
+            </form>
+        </div> 
+         <div class="Tablecontainer">
+
+        </div>
+
+    </div>
+</body>
+</html>
